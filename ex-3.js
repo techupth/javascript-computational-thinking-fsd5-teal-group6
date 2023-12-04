@@ -82,3 +82,14 @@ let orders = [
 ];
 
 // Start coding here
+
+let result = "";
+let sum = 0;
+for (let i = 0; i < orders.length; i++) {
+  orders[i].customerName == "Birdie Shepland"
+    ? (sum += orders[i].productPrice * orders[i].productQuantity)
+    : "";
+
+  result = `Total paid amount of Birdie Shepland: ${sum} bath`;
+}
+console.log(result);
